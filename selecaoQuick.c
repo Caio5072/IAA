@@ -42,8 +42,6 @@ int main(){
   int* l;
   clock_t start, end;
   double elapsed;
-
- // m = selecaoMergeSort(l, tam, i);
   
   scanf(" %d", &tam);
   l = (int*) malloc(sizeof(int)*tam);
@@ -83,18 +81,5 @@ int main(){
   printf("Tempo de processamento: %.2lf segundos.\n", elapsed);
 
   printf("\n");
-  //printf("%d\n", m);
   return 0;
 }
-
-
-/*
-0 5 3 2 1
-i = 1
-0 2 3 5 1
-q = 1
-i2 = 3
-tam = 5
-pivot = l[tam-1] = 4
-q
-*/
